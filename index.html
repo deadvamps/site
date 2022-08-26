@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="untitled.glb"  camera-controls poster = "loadingscreen.png" shadow-intensity="0" environment-image="hdr.png" exposure="5" auto-rotate camera-orbit="0.00deg 84.49deg auto" rotation-per-second = "25deg">
+      <div class="progress-bar hide" slot="progress-bar" data-label="読み込み中...">
+      
+          <div class="update-bar"></div>
+      </div>
+      <div class="contianer">
+        <div class="buttons">
+          <a href="#popup1" class="btn btn1" id="open" >aB0uT</a>
+          <a href="#popup2" class="btn btn2">r0ADmaP!++</a>
+        </div>
+      </div>
+      
+      
+
+      <video id="videoBG" autoplay muted loop>
+        <source src="g6.mp4" type="video/mp4">
+      </video>
+    
+      <a href="https://deadvamps.com"><img class = "img-blood" src="bloodbat.png" alt="bloodbat"></a>
+
+    
+
+        
+        
+      
+      <div class="popup" id="popup1">
+          
+            <p class="about"> d3aDvAmPs is an nFt pr0j3cT f3atuRInG 4K 3d aRT made iN 
+              bl3ND3R. tHe ! pR0J3CT ! wILL liVe oN ! tH3 > s0lAna bl0CKchaIn > aND is . t0 b3 ! reLeAseD > iN tAnD3m 
+              wiTH tH3 ! $vMp t0keN. tH3 . miNTiNG oF th3Se . nfTs wiLL b3 frEE, ! anD th0S3 wh0 mInt wiLL > reC3iVe $vMp 
+              t0KeNs ! in tH3iR wALL3TS. ! fURth3R inF0rmATi0n cAN ! be f0Und iN oUR diSC0rD. . 💕🧛🏿
+            </p>
+            <a href="#" class="button close-button">X</a>
+          
+      </div>
+
+      <div class="popup" id="popup2">
+        <div class="roadmap">
+          <ol>
+            <li>oN . mINt dAy, ! yoU'LL b3 . abLe ! t0 ! mINt > uP . t0 2 NFTs > per wALLet anD ! reC3IV3 $VMp . t0Kens aFTer tH3 mint > peri0d is oV3R. the . miNt priCe wiLL be . aNN0unceD iN tHe dISc0rD, aNd th0s3 wh0 mInT . wILL rec3Iv3 a > qUaNtity ! of > t0K3ns w0RtH m0R3 tHan tH3 . mINT > fEes.</li>
+            <li>oUr ! visi0N d0eSN'T st0P aT > tHe > minT. afTerwarDs, ! we . wILL be ! giVInG w33KLy reWaRDs t0 . h0lDeRs in tH3 . f0rm oF > $VmP, hyP3r-Rare fashi0N it3mS, oR oth3r ! c0inS . sUCH . as . etH > and s0l. > w3 wILL ch3Ck wh0 our > h0LD3RS > aRe at tHe eNd ! of everY wE3k, aND ! reWArDs wiLL be . airDr0PPeD ! eXCLuSiV3lY . t0 tHeM.</li>
+            <li>we aLR3aDY haVe fuTUR3 ! pr0J3CTs lIneD ! uP ! wIth stREEtW3AR bRaNDs sUCH as th0UsaNdsins, whiCH ! wILL feAtuRe th3 chARACTeRS in > our nFTs ! weAriNg . th0uSaNdSins > meRcH.</li>
+          </ol> 
+       <a href="#" class="button cb2">X</a>
+        </div>
+    </div>
+    
+        <div class="icons"></div>
+          <ul>
+            <li style="--clr:rgb(255, 0, 0);"><a href="https://discord.com/invite/KMTUVmdXWy" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+            <li><a href="https://twitter.com/deadvampsnft" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+        </div>
+   
+    </model-viewer>  
+    
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>
