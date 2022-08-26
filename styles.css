@@ -296,7 +296,7 @@ model-viewer > #ar-prompt > img {
 
 @font-face {
   font-family: 'p2p';
-  src: url("fonts/MonumentExtended-Regular.otf");
+  src: url("MonumentExtended-Regular.otf");
 }
 
 .btn {
