@@ -43,7 +43,7 @@ body {
   font-family: 'p2p'; 
   width: 90%;
   color: rgb(255, 0, 0);
-  font-size: 42px;
+  font-size: 43px;
   background-color: rgba(0, 0, 0, 0.7);
   text-shadow: 
   0 0 1em hsl(0 0% 100% / 0.3), 0 0 5.0em rgb(255, 0, 0);
@@ -216,7 +216,7 @@ ul li a {
   position: relative;
   text-decoration: none;
   color: rgb(255, 0, 0);
-  font-size: 2rem;
+  font-size: 200%;
   z-index: 10;
   transition: 0.2s;
   text-shadow: 
@@ -296,12 +296,12 @@ model-viewer > #ar-prompt > img {
 
 @font-face {
   font-family: 'p2p';
-  src: url("MonumentExtended-Regular.otf");
+  src: url("fonts/MonumentExtended-Regular.otf");
 }
 
 .btn {
   font-family: 'p2p';
-  font-size: 1.5rem;
+  font-size: 150%;
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
@@ -313,7 +313,6 @@ model-viewer > #ar-prompt > img {
   position: absolute;
   cursor: pointer;
   top: 0.5%;
-  left: 66.3%;
   text-shadow: 
   0 0 0.1em hsl(0 0% 100% / 0.3), 0 0 0.05em rgb(255, 0, 0);
 
@@ -349,10 +348,12 @@ model-viewer > #ar-prompt > img {
   transition: 2.0s;
 }
 
-
+.btn1 {
+  left: 66vw;
+}
 
 .btn2 {
-  font-size: 1.5rem;
+  font-size: 150%;
   font-family: 'p2p';
   font-size: 1.5rem;
   display: inline-block;
@@ -365,6 +366,86 @@ model-viewer > #ar-prompt > img {
   position: absolute;
   top:0.5%;
   left: 76%;
+}
+
+.container {
+  left: 500vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .btn1 {
+    font-size: 75%;
+    top: 2%;
+    left: 30%;
+  }
+  .btn2 {
+    font-size: 75%;
+    top: 2%;
+    left: 50%;
+  }
+  .about {
+    font-size: 24px;
+    top: 27%;
+  }
+  .close-button {
+    top: 6%;
+    left: 90%;
+  }
+  .roadmap {
+    font-size: 16px;
+  }
+  .cb2 {
+    left: 95%;
+    top: -3%;
+    font-size: 17px;
+  }
+  #videoBG {
+    transform: translate3d(-39%, -7%, 0);
+  }
+  ul {
+    position: absolute;
+    top: 1%;
+    left: 74%;
+    display: flex;
+    gap: 120%;
+  }
+  
+  ul li{
+    position: relative;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  ul li a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 130%;
+    z-index: 10;
+    transition: 0.2s;
+    text-shadow: 
+    0 0 0.1em hsl(0 0% 100% / 0.3), 0 0 0.15em rgb(255, 0, 0);
+    
+    position: relative;
+  
+    transition: rgb(138, 1, 1) 100ms linear;
+  }
+  
+  ul li:hover a {
+    font-size: 3rem;
+    text-shadow: 0 0 0.1em hsl(0 0% 100% / 0.3), 0 0 0.25em rgb(255, 0, 0);;
+  }
+  .img-blood {
+    width: 100px;
+    top: -.5%;
+  }
 }
 
 
