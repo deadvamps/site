@@ -397,7 +397,7 @@ model-viewer > #ar-prompt > img {
     font-size: 17px;
   }
   #videoBG {
-    transform: translate3d(-39%, -7%, 0);
+    transform: translate3d(-50%, -50%, 0);
   }
   ul {
     position: absolute;
